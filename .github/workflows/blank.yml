@@ -34,4 +34,4 @@ jobs:
       - name: Write file to Desktop
         run: |
           dir
-          cp * C:\Users\ta-19e-206\Desktop\www
+          cp * C:\Users\ta-19e-206\Desktop\www\
