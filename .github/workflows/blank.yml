@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Write file to Desktop
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          cd C:\Users\ta-19e-206\Desktop
+          echo "You're hacked - Jan" > virus.txt
